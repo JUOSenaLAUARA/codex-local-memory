@@ -1,0 +1,25 @@
+# Local dependencies and caches
+node_modules/
+.venv/
+__pycache__/
+*.pyc
+
+# Local memory, configuration, credentials, and models
+config.json
+.env*
+.codex/
+data/
+exports/
+backups/
+logs/
+runtime/
+recovered-artifacts/
+*.sqlite*
+*.db
+*.jsonl
+*.log
+*.gguf
+collector.lock
+status.json
+heartbeat.json
+*-status.json
